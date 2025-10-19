@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.frosted {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.glow {
+  filter: drop-shadow(0 0 8px #34d399);
+  transition: all 0.3s ease;
+}
+
+.glow:hover {
+  filter: drop-shadow(0 0 15px #34d399);
+}
